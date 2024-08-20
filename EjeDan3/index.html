@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+    <div>
+        <label for="peso">Peso del paquete (kg): </label>
+        <input type="number" id="peso">
+        <label for="opcion-envio">Tipo de Envio: </label>
+        <select  id="opcion-envio">
+            <option value="estandar">Estándar</option>
+            <option value="express">Express</option>
+            <option value="overnight">Nocturno</option>
+        </select>
+        <button id="calcularEnvio">Calcular Envío</button>
+    </div>
+    <div>
+        <p id="envio-info"></p>
+    </div>
+</body>
+</html>
